@@ -1,0 +1,58 @@
+* {box-sizing: border-box;}
+
+body {
+  background: url(../../docs/images/coderain.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+.container {
+  margin: 10em;
+  display: flex;
+  padding: 0 2em;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    background-color: rgba(5, 84, 50, 0.9);
+    border: 1px solid rgb(133, 133, 124);
+      
+}
+
+.container > .intro {
+  
+  font-family: "Lato", sans-serif;
+  /* color: antiquewhite; */
+  margin: 0px;
+}
+.container > .intro > h1{
+  font-size: 3em;
+  color: whitesmoke;
+}
+
+.container > .intro > .button{
+  margin: 4em;
+  padding: 1em;
+  background: #45d8be;
+  transition: background 0.2s ease-in, transform .3s .1s ease-in-out;
+}
+
+.container > .intro > .button > a {
+  color: rgb(23, 10, 8);
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}
+
+.container > .intro > .button:hover {
+  transform: scaleX(1.6) scaleY(1.5) rotateY(30deg);
+  box-shadow: 0 0 15px rgba(1, 2, 1, 0.81); 
+}
+
+.button-shadow:hover {
+  transform: scaleX(1.0) scaleY(1.0) rotateY(30deg);
+} 
