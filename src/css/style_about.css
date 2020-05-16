@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  font-family: "Lato", sans-serif;
+  
+}
+body {
+  background-color:#bdfffd ;
+}
+.about__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100vw;
+  /* background-color:#bdfffd ; */
+}
+
+/* nav styles */
+.nav-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 1rem 3.5rem 1rem 2rem; 
+  background-color: #004e64;
+}
+/*Create a horizontal list with spacing*/
+.nav-link-wrapper {
+  display:flex;
+  flex-wrap: nowrap;
+  margin-right: 0;
+  
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0.2s ease-in, transform .3s .1s ease-in-out;
+}
+/*Style for menu links*/
+.nav-link-wrapper > a {
+  font-size: 30rem 2.0rem; 
+  color: #ffffff;
+  text-decoration: none;
+  transition: background 0.2s ease-in, transform .3s .1s ease-in-out;
+}
+
+/*Hover state for links*/
+
+.nav-link-wrapper:hover {
+  border-bottom: 3px solid rgb(10, 7, 7);
+  transform: scaleX(1.2) scaleY(1.0) rotateY(30deg);
+}
+
+.nav-link-wrapper a:hover {
+  color: #01161e;
+  transform: scaleX(1.2) rotateY(30deg);
+}
+
+/* active nav link */
+
+.active-nav-link {
+  border-bottom: 3px solid rgb(10, 7, 7) !important;
+  transform: scaleX(1.2) scaleY(1.0) rotateY(30deg) !important;
+}
+
+.active-nav-link a{
+  color: #01161e !important;
+  transform: scaleX(1.2) rotateY(30deg) !important;
+}
+
+/* .content-wrapper {
+  background-color: lightseagreen;
+} */
+.two-column-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+ 
+
+}
+
+/* portfolio-image-wrapper */
+
+.portfolio-image-wrapper {
+  padding: 1rem;
+  width: fit-content;
+}
+
+
+.portfolio-image-wrapper img {
+  width: 20vw 20vh;
+  border-radius: 100%;
+}
+
+.portfolio-description_wrapper {
+  padding: 1rem 2rem;
+  font-size: 20px;
+}
