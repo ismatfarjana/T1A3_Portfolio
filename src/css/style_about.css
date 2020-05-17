@@ -122,3 +122,19 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
+
+/* footer */
+
+.footer {
+  color: rgb(82, 62, 62);
+  font-size: 1rem;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  padding: 1vw 1rem;
+  border: 0.3rem solid transparent;
+  background-color: #bdfffd;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+}
