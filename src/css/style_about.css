@@ -2,24 +2,32 @@
   box-sizing: border-box;
   margin:0;
   font-family: "Lato", sans-serif;
+  font-size: 1rem;
   
 }
 body {
   background-color:#bdfffd ;
+  
 }
 .about__container {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-wrap: wrap;
   width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0rem;
+  
+  
   /* background-color:#bdfffd ; */
 }
 
 /* nav styles */
 .nav-wrapper {
+
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
-  padding: 1rem 3.5rem 1rem 2rem; 
+  padding: 1rem 1rem; 
   background-color: #004e64;
 }
 /*Create a horizontal list with spacing*/
@@ -63,13 +71,14 @@ body {
   transform: scaleX(1.2) rotateY(30deg) !important;
 }
 
-/* .content-wrapper {
-  background-color: lightseagreen;
-} */
+ .content-wrapper {
+  padding: 0.5rem 0.4rem;
+} 
 .two-column-wrapper {
   display: flex;
-  flex-wrap: wrap;
- 
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.3rem;
 
 }
 
@@ -78,15 +87,38 @@ body {
 .portfolio-image-wrapper {
   padding: 1rem;
   width: fit-content;
+  justify-content: center;
+  
 }
 
 
 .portfolio-image-wrapper img {
-  width: 20vw 20vh;
-  border-radius: 100%;
+  width: 70%;
+  border-radius: 10%;
+  margin: 0 0 0 2.5rem;
+  
 }
 
 .portfolio-description_wrapper {
-  padding: 1rem 2rem;
-  font-size: 20px;
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-flow: column;
+}
+
+.portfolio-description_wrapper > h1 {
+  font-size: 2rem;
+  padding: 1rem 0.2rem;
+  border: 2px solid black;
+  margin: 0.1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.portfolio-description_wrapper > p {
+  font-size: 2vw 2vh;
+  padding: 1rem;
+  border: 2px solid black;
+  margin: 0.2rem;
+  text-transform: uppercase;
+  text-align: center;
 }
