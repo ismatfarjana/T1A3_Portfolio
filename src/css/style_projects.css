@@ -1,0 +1,29 @@
+
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.project-wrapper > .headline {
+  padding: 2rem;
+}
+
+.project-wrapper > .headline h1{
+  font-size: 3rem;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects > .project-link-wrapper {
+  padding: 0.5rem 1.3rem; 
+}
+
+.projects > .project-link-wrapper > a > img {
+  width: 20rem;
+  padding: 1rem 2rem;
+}
