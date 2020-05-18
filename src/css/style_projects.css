@@ -1,0 +1,14 @@
+
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.project-wrapper > .headline {
+  padding: 2rem;
+}
+
+.project-wrapper > .headline h1{
+  font-size: 3rem;
+}
