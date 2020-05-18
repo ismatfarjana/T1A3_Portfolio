@@ -38,19 +38,26 @@ body {
   margin: 4em;
   padding: 1em;
   background: #45d8be;
-  transition: background 0.2s ease-in, transform .3s .1s ease-in-out;
+  transition: background 0.2s ease-in, transform .2s .1s ease-in-out;
 }
 
 .container > .intro > .button > a {
-  color: rgb(23, 10, 8);
+  color: rgb(3, 3, 3);
   text-transform: uppercase;
   text-decoration: none;
   
 }
 
 .container > .intro > .button:hover {
+  background-color: rgb(199, 20, 89);
   transform: scaleX(1.6) scaleY(1.5) rotateY(30deg);
   box-shadow: 0 0 15px rgba(1, 2, 1, 0.81); 
+}
+
+.container > .intro > .button > a:hover {
+  color: rgb(18, 1, 4);
+  
+  
 }
 
 .button-shadow:hover {
