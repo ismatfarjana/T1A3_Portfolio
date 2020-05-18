@@ -116,7 +116,7 @@ body {
   padding: 1rem 0.2rem;
   border: 2px solid black;
   margin: 0.1rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
 }
 
@@ -125,7 +125,7 @@ body {
   padding: 1rem;
   border: 2px solid black;
   margin: 0.2rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
 }
 
