@@ -1,0 +1,37 @@
+.main-wrapper {
+  padding: 0.5rem 0.4rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+} 
+.two-row-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.3rem;
+}
+.two-row-wrapper > .heading {
+  padding: 2rem;
+}
+
+.two-row-wrapper > .heading h2{
+  font-size: 3rem;
+}
+
+
+.email_wrapper > .contact-me-form {
+  padding: 1rem 10rem;
+  align-items: center;
+  
+}
+
+.socialmedia-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.socialmedia-wrapper > .socialmedia-link-wrapper {
+  padding: 1rem;
+}
