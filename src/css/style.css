@@ -29,13 +29,13 @@ body {
   /* color: antiquewhite; */
   margin: 0px;
 }
-.container > .intro > h1{
+.container > .intro > h2{
   font-size: 3em;
   color: whitesmoke;
   text-shadow: 0.1em 0.1em black ;
 }
 
-.container > .intro > h2{
+.container > .intro > h3{
   font-size: 1.5em;
   color: rgb(155, 254, 84);
   text-shadow: 0.1em 0.1em black ;
