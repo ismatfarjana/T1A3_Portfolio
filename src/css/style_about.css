@@ -54,12 +54,12 @@ body {
 /*Hover state for links*/
 
 .nav-link-wrapper:hover {
-  border-bottom: 3px solid #bdfffd;
+  border-bottom: 3px solid #020202;
   transform: scaleX(1.2) scaleY(1.0) rotateY(30deg);
 }
 
 .nav-link-wrapper a:hover {
-  color: #87bba2;
+  color: #f74a8c;
   transform: scaleX(1.2) rotateY(30deg);
 }
 
