@@ -32,6 +32,14 @@ body {
 .container > .intro > h1{
   font-size: 3em;
   color: whitesmoke;
+  text-shadow: 0.1em 0.1em black ;
+}
+
+.container > .intro > h2{
+  font-size: 1.5em;
+  color: rgb(155, 254, 84);
+  text-shadow: 0.1em 0.1em black ;
+  
 }
 
 .container > .intro > .button{
