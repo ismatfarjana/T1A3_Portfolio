@@ -54,24 +54,24 @@ body {
 /*Hover state for links*/
 
 .nav-link-wrapper:hover {
-  border-bottom: 3px solid rgb(10, 7, 7);
+  border-bottom: 3px solid #bdfffd;
   transform: scaleX(1.2) scaleY(1.0) rotateY(30deg);
 }
 
 .nav-link-wrapper a:hover {
-  color: #01161e;
+  color: #87bba2;
   transform: scaleX(1.2) rotateY(30deg);
 }
 
 /* active nav link */
 
 .active-nav-link {
-  border-bottom: 3px solid rgb(10, 7, 7) !important;
+  border-bottom: 2px solid #020202 !important;
   transform: scaleX(1.2) scaleY(1.0) rotateY(30deg) !important;
 }
 
 .active-nav-link a{
-  color: #01161e !important;
+  color: #f74a8c !important;
   transform: scaleX(1.2) rotateY(30deg) !important;
 }
 
@@ -111,7 +111,7 @@ body {
   flex-flow: column;
 }
 
-.portfolio-description_wrapper > h1 {
+.portfolio-description_wrapper > h2 {
   font-size: 2rem;
   padding: 1rem 0.2rem;
   border: 2px solid black;
