@@ -15,7 +15,7 @@
 }
 
 .two-row-wrapper > .heading h2{
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .two-row-wrapper > .heading h3{
@@ -53,14 +53,12 @@
   background-color: rgb(245, 247, 241);
 }
 
-.email_wrapper > .contact-me-form > form > .button {
-  padding: 2rem;
-}
+
 
 .email_wrapper > .contact-me-form > form > .button > a {
     border : 0.5px solid rgb(250, 247, 247);
     width: 25vw;
-    padding: 1vw 2vw 1vw 2vw;
+    padding: 0 1vw;
     border-radius: 10%;
     margin: 1rem;
     align-items: right;
