@@ -30,15 +30,15 @@
 }
 
 .email_wrapper > .contact-me-form {
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   align-items: center;
   
 }
 
 .email_wrapper > .contact-me-form > form {
   background-color: rgb(182, 186, 169);
-  text-align: left;
-  padding: 8vw;
+  text-align: center;
+  padding: 2vw;
 }
 
 .email_wrapper > .contact-me-form > form > label {
