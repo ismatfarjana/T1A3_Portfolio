@@ -129,7 +129,7 @@
 
 /*  media query */
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:1000px) {
   .email_wrapper > .contact-me-form > form {
     background-color: rgb(182, 186, 169);
     text-align: center;
