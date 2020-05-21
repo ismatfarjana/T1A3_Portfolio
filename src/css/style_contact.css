@@ -27,28 +27,30 @@
   display: flex;
   flex-flow: column;
   justify-content: center;
+  margin: 0 2rem;
 }
 
 .email_wrapper > .contact-me-form {
-  padding: 0.5rem 1rem;
-  align-items: center;
+  padding: 0.2rem 5px;
+  align-items: center; 
   
 }
 
 .email_wrapper > .contact-me-form > form {
   background-color: rgb(182, 186, 169);
   text-align: center;
-  padding: 2vw;
+  padding: 1rem 2rem;
+  margin: 0 1vw;
+  width: 30rem;
 }
 
 .email_wrapper > .contact-me-form > form > label {
-  font-size: 1.2rem;
-  font-weight: 5px;
+  font-size: 1rem;
   color: rgb(25, 48, 79);
 }
 
 .email_wrapper > .contact-me-form > form > input {
-  width: 25vw;
+  width: 25rem;
   height: 1.2rem;
   background-color: rgb(245, 247, 241);
 }
@@ -121,4 +123,16 @@
   background-color: rgb(3, 6, 4);
   text-decoration: none;
   
+}
+
+/*  media query */
+
+@media screen and (min-width:500px) {
+  .email_wrapper > .contact-me-form > form {
+    background-color: rgb(182, 186, 169);
+    text-align: center;
+    padding: 1rem 2rem;
+    margin: 0 18vw;
+    width: 30rem;
+  }
 }
