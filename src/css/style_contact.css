@@ -29,7 +29,8 @@
   display: flex;
   flex-flow: column;
   justify-content: center;
-  margin: 0 2rem;
+  align-self: center;
+  /* margin: 0rem; */
   
 }
 
@@ -150,5 +151,23 @@
     width: 25rem;
     
   }
+
+
+.socialmedia-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.socialmedia-wrapper > .socialmedia-link-wrapper {
+  padding: 1rem;
+}
+
+.socialmedia-wrapper > .socialmedia-link-wrapper > a > img {
+  width: 25px;
+}
+
+
 
 }
