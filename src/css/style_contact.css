@@ -3,12 +3,14 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  /* max-width: 100%; */
 } 
 .two-row-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 1vw;
+ 
 }
 .two-row-wrapper > .heading {
   padding: 2vw;
@@ -127,7 +129,7 @@
 
 /*  media query */
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:800px) {
   .email_wrapper > .contact-me-form > form {
     background-color: rgb(182, 186, 169);
     text-align: center;
