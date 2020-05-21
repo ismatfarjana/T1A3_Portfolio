@@ -48,9 +48,9 @@ body {
   transition: border-bottom 0.2s ease-in, transform .3s .1s ease-in-out;
 }
 /*Style for menu links*/
-.nav-link-wrapper > a {
-  font-size: 30rem 2.0rem; 
+.nav-link-wrapper > a { 
   color: #ffffff;
+  
   text-decoration: none;
   transition: background 0.2s ease-in, transform .3s .1s ease-in-out;
 }
@@ -141,6 +141,7 @@ body {
   display: none;
   width: 26px;
   float: right;
+  line-height: 30px;
 }
 #toggle {
   display: none;
@@ -162,7 +163,7 @@ body {
 
    .nav-link-wrapper {
       display: block;
-     
+     padding: 1rem;
    }
 
    #toggle:checked + .nav-wrapper {
