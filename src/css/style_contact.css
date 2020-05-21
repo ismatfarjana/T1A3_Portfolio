@@ -19,7 +19,7 @@
 }
 
 .two-row-wrapper > .heading h3{
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   padding: 3.2vw 0vw;
 }
 
@@ -42,14 +42,14 @@
 }
 
 .email_wrapper > .contact-me-form > form > label {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 5px;
   color: rgb(25, 48, 79);
 }
 
 .email_wrapper > .contact-me-form > form > input {
-  width: 20vw;
-  height: 1.5rem;
+  width: 25vw;
+  height: 1.2rem;
   background-color: rgb(245, 247, 241);
 }
 
@@ -89,7 +89,7 @@
 }
 
 .socialmedia-wrapper > .socialmedia-link-wrapper > a > img {
-  width: 10vw;
+  width: 7vw;
 }
 
 .thankyou > img{ 
