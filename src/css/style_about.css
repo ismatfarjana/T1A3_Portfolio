@@ -135,7 +135,7 @@ body {
 
 
 /*   toggle   */
-label {
+ .about__container > .nav > label {
   margin: 0 20px 0 0;
   font-size: 20px;
   display: none;
@@ -149,7 +149,7 @@ label {
 /* responsive */
 
 @media screen and (max-width:500px){
-   label {
+  .about__container > .nav > label {
      display: block;
      cursor: pointer;
    }
