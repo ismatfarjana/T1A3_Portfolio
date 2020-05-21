@@ -48,15 +48,14 @@
   width: 20rem;
 }
 
-.email_wrapper > .contact-me-form > form > label {
-  font-size: 1rem;
-  color: rgb(25, 48, 79);
-}
-
 .email_wrapper > .contact-me-form > form > input {
   width: 15rem;
-  height: 1.2rem;
+  height: 1.9rem;
   background-color: rgb(245, 247, 241);
+}
+
+.email_wrapper > .contact-me-form > form > textarea {
+   width: 15rem;  
 }
 
 
@@ -64,20 +63,20 @@
 .email_wrapper > .contact-me-form > form > .button > a {
     border : 0.5px solid rgb(250, 247, 247);
     width: 25vw;
-    padding: 0 1vw;
-    border-radius: 10%;
+    padding: 0.2rem 0.3rem;
+    border-radius: 0.3rem;
     margin: 1rem;
     align-items: right;
     text-decoration: none;
-    background-color: rgb(136, 126, 128);
+    background-color: rgb(25, 155, 225);
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .email_wrapper > .contact-me-form > form > .button:hover > a {
-  background-color: rgb(7, 145, 224);
-  border : 1px solid rgb(252, 241, 241);
-  color: white;
+  background-color: rgb(11, 240, 45);
+  border : 1px solid rgb(7, 7, 7);
+  color: rgb(7, 7, 7);
   
 }
 
@@ -151,7 +150,9 @@
     width: 25rem;
     
   }
-
+  .email_wrapper > .contact-me-form > form > textarea {
+     width: 25rem; 
+  }
 
 .socialmedia-wrapper {
   display: flex;
