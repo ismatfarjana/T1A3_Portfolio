@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 .blogs {
   display: flex;
   flex-wrap: wrap;
@@ -5,10 +6,17 @@
 }
 
 .blogs > .blog-link-wrapper {
-  padding: 0.5rem 1.3rem; 
+  padding: 2.6rem 1.3rem; 
+  text-align: left;
 }
 
-.blogs > .blog-link-wrapper > a > img {
+.blogs > .blog-link-wrapper > .blog-name > h2 {
+  color: purple;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
+}
+
+.blogs > .blog-link-wrapper > img {
   width: 20rem;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem 1rem 0;
 }

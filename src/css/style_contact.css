@@ -97,16 +97,6 @@
   width: 7vw;
 }
 
-.thankyou > img{ 
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
-  text-align: center;
-  width: 100vw;
-  /* border: 8vw 8vw 4vw 8vw solid rgb(3, 6, 4); */
-}
-
 .thankyou > h2 {
   font-size: 4vw;
   color: yellowgreen;
@@ -116,17 +106,6 @@
   background-color: rgb(3, 6, 4);
 }
 
-
-.back-home > a > h3 {
-  font-size: 4vw;
-  color: yellowgreen;
-  text-align: center;
-  padding: 5vw;
-  border: 4px solid rgb(3, 6, 4);
-  background-color: rgb(3, 6, 4);
-  text-decoration: none;
-  
-}
 
 /*  media query */
 
