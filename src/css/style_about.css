@@ -23,6 +23,10 @@ body {
   
   
   /* background-color:#bdfffd ; */
+}/* nav */
+.nav {
+  border-bottom: 1px solid #EAEAEB;
+  text-align: right;
 }
 
 /* nav styles */
@@ -129,6 +133,43 @@ body {
   text-align: center;
 }
 
+
+/*   toggle   */
+label {
+  margin: 0 20px 0 0;
+  font-size: 20px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+#toggle {
+  display: none;
+}
+
+/* responsive */
+
+@media screen and (max-width:500px){
+   label {
+     display: block;
+     cursor: pointer;
+   }
+
+   .nav-wrapper {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+   .nav-link-wrapper {
+      display: block;
+     
+   }
+
+   #toggle:checked + .nav-wrapper {
+     display: block;
+   }
+   
+}
 
 /* footer */
 
