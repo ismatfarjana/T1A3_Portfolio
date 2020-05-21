@@ -59,7 +59,7 @@ body {
 }
 
 .nav-link-wrapper a:hover {
-  color: #f74a8c;
+  color: #7af496;
   transform: scaleX(1.2) rotateY(30deg);
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 .active-nav-link a{
-  color: #f74a8c !important;
+  color: #24fc56 !important;
   transform: scaleX(1.2) rotateY(30deg) !important;
 }
 
