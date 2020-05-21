@@ -30,11 +30,12 @@
   flex-flow: column;
   justify-content: center;
   margin: 0 2rem;
+  width: 
 }
 
 .email_wrapper > .contact-me-form {
   padding: 0.2rem 5px;
-  align-items: center; 
+  /* align-items: center;  */
   
 }
 
@@ -42,8 +43,8 @@
   background-color: rgb(182, 186, 169);
   text-align: center;
   padding: 1rem 2rem;
-  margin: 0 1vw;
-  width: 30rem;
+  /* margin: 0 1vw; */
+  width: 20rem;
 }
 
 .email_wrapper > .contact-me-form > form > label {
@@ -52,7 +53,7 @@
 }
 
 .email_wrapper > .contact-me-form > form > input {
-  width: 25rem;
+  width: 15rem;
   height: 1.2rem;
   background-color: rgb(245, 247, 241);
 }
@@ -129,12 +130,25 @@
 
 /*  media query */
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width:500px) {
+.email_wrapper {
+  align-self: center;
+}
+
   .email_wrapper > .contact-me-form > form {
     background-color: rgb(182, 186, 169);
     text-align: center;
     padding: 1rem 2rem;
-    margin: 0 18vw;
+    align-self: normal;
+    /* margin: 0 25rem; */
     width: 30rem;
+    
+    
   }
+
+  .email_wrapper > .contact-me-form > form > input {
+    width: 25rem;
+    
+  }
+
 }
