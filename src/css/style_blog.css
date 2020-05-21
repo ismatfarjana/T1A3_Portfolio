@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 .blogs {
   display: flex;
   flex-wrap: wrap;
@@ -6,17 +8,37 @@
 }
 
 .blogs > .blog-link-wrapper {
-  padding: 2.6rem 1.3rem; 
+  padding: 2.1rem 2.6rem 2rem 2.6rem; 
   text-align: left;
 }
 
 .blogs > .blog-link-wrapper > .blog-name > h2 {
   color: purple;
   font-family: 'Oswald', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px rgb(255, 255, 255);
+}
+
+.blogs > .blog-link-wrapper > .paragraph {
+  font-family: 'Indie Flower', cursive;
+  text-align: left;
+  width: 18.4rem;
+  padding:  0.3rem 0.7rem;
+  border-left: 3px dotted rgb(67, 2, 105);
+  background-color: rgba(158, 233, 72, 0.267);
 }
 
 .blogs > .blog-link-wrapper > img {
   width: 20rem;
   padding: 1rem 2rem 1rem 0;
+}
+
+.blogs > .blog-link-wrapper > a:link {
+  color: rgb(75, 69, 69);
+  text-decoration: none;
+  
+}
+
+.blogs > .blog-link-wrapper > a:visited {
+  color: rgb(75, 69, 69);
 }
