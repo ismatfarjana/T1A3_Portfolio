@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 * {box-sizing: border-box;}
 
 body {
@@ -19,7 +20,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: auto;
-    background-color: rgba(5, 84, 50, 0.6);
+    background-color: rgba(194, 248, 225, 0.6);
     border: 1px solid rgb(133, 133, 124);
       
 }
@@ -30,18 +31,22 @@ body {
   /* color: antiquewhite; */
   margin: 0px;
 }
-.container > .intro > h2{
+/* .container > .intro > h2{
   font-size: 3em;
   color: whitesmoke;
   text-shadow: 0.1em 0.1em black ;
-}
+} */
 
 .container > .intro > h3{
-  font-size: 1.5em;
-  color: rgb(155, 254, 84);
-  text-shadow: 0.1em 0.1em black ;
-  
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
 }
+
+.container > .intro > h3 > span {
+  font-size: 1.2em;
+  font-weight: 10%;
+}
+
 
 .container > .intro > .button{
   margin: 4em;
