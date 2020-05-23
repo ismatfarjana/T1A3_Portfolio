@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
 body {
   background-color:#bdfffd ;
@@ -118,21 +118,96 @@ body {
 .portfolio-description_wrapper > h2 {
   font-size: 2rem;
   padding: 1rem 0.2rem;
-  border: 2px solid black;
+  border: 2px solid transparent;
   margin: 0.1rem;
   /* text-transform: uppercase; */
   text-align: center;
 }
 
 .portfolio-description_wrapper > p {
-  font-size: 2vw 2vh;
+  font-size: 1.3rem;
   padding: 1rem;
-  border: 2px solid black;
+  border: 2px solid transparent;
   margin: 0.2rem;
-  /* text-transform: uppercase; */
-  text-align: center;
+  text-align: left;
 }
 
+.portfolio-description_wrapper > a:link {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(246, 45, 45);
+  font-size: 1.8rem;
+  font-family: 'Kanit', sans-serif;
+  text-shadow:1.2px 1.2px rgb(3, 3, 3);
+  transition: background 0.2s ease-in, transform .2s .1s ease-in-out;
+}
+
+.portfolio-description_wrapper > a:visited {
+  color: rgb(246, 45, 45);
+}
+
+.portfolio-description_wrapper > a:hover {
+  transform: scaleX(1.6) scaleY(1.2) rotateY(30deg);
+}
+
+.portfolio-description_wrapper > a > img {
+  width: 1.8rem;
+}
+
+
+
+.portfolio-description_wrapper > .description > h3 {
+  font-size: 1.2rem;
+  padding: 0.9rem 1rem;
+}
+
+.portfolio-description_wrapper > .description > .skills > h4 {
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+}
+
+.portfolio-description_wrapper > .description > .skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-description_wrapper > .description > .skills > .skill {
+  padding: 1rem;
+}
+
+.portfolio-description_wrapper > .description > .skills > .skill > h4 {
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+}
+
+.portfolio-description_wrapper > .description > .skills > .skill > .list > ul > li > a > img {
+  width: 1.8rem;
+}
+
+.portfolio-description_wrapper > .description > .skills > .skill > .list > ul >li {
+  padding: 0.3rem;
+}
+
+.portfolio-description_wrapper > .description > p {
+  font-size: 1.1rem;
+  padding: 0 0.7rem;
+  border: 2px solid transparent;
+  margin: 0.2rem;
+  text-align: left;
+}
+
+.portfolio-description_wrapper > .description > .list {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-description_wrapper > .description > .list > .list1 > ul >li {
+  padding: 0.3rem;
+}
+
+.portfolio-description_wrapper > .description > .list > .list2 > ul >li {
+  padding: 0.3rem;
+}
 
 /*   toggle   */
  .about__container > .nav > label {
