@@ -19,7 +19,8 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: auto;
-    background-color: rgba(5, 84, 50, 0.6);
+    background-color: #111;
+    opacity: 0.8;
     border: 1px solid rgb(133, 133, 124);
       
 }
