@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
 body {
-  background-color:#bdfffd ;
+  background-color: #9fb9ca ;
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -36,7 +36,7 @@ body {
   flex-wrap: nowrap;
   justify-content: space-around;
   padding: 1rem 1rem; 
-  background-color: #004e64;
+  background-color: #064974;
 }
 /*Create a horizontal list with spacing*/
 .nav-link-wrapper {
@@ -267,7 +267,7 @@ footer {
   bottom: 0;
   padding: 1vw 1rem;
   border: 0.3rem solid transparent;
-  background-color: #bdfffd;
+  background-color: #9fb9ca;
   margin: 0 auto;
   font-family: "Lato", sans-serif;
 }

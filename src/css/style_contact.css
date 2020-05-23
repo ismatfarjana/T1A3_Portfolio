@@ -91,11 +91,20 @@
 
 .socialmedia-wrapper > .socialmedia-link-wrapper {
   padding: 4vw;
+  
 }
+
+ 
 
 .socialmedia-wrapper > .socialmedia-link-wrapper > a > img {
   width: 7vw;
+  transition: background 0.2s ease-in, transform .2s .1s ease-in-out;
 }
+
+.socialmedia-wrapper > .socialmedia-link-wrapper:hover > a > img{
+  transform: scaleX(1.5) scaleY(1.4) rotateY(30deg);
+  box-shadow: 0 0 5px rgba(1, 2, 1, 0.81); 
+} 
 
 .thankyou > h2 {
   font-size: 4vw;
