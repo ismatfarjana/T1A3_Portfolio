@@ -79,6 +79,15 @@ body {
   transform: scaleX(1.2) rotateY(30deg) !important;
 }
 
+/* about me header */
+.about__container > header > h2 {
+  font-size: 3rem;
+  padding: 1rem 0.2rem;
+  border: 2px solid transparent;
+  margin: 0.1rem;
+  text-align: center;
+} 
+
  .content-wrapper {
   padding: 0.5rem 0.4rem;
   display: flex;
@@ -115,14 +124,14 @@ body {
   flex-flow: column;
 }
 
-.portfolio-description_wrapper > h2 {
+/* .portfolio-description_wrapper > h2 {
   font-size: 2rem;
   padding: 1rem 0.2rem;
   border: 2px solid transparent;
   margin: 0.1rem;
-  /* text-transform: uppercase; */
   text-align: center;
-}
+}  */
+
 
 .portfolio-description_wrapper > p {
   font-size: 1.3rem;
@@ -249,7 +258,7 @@ body {
 
 /* footer */
 
-.footer {
+footer {
   color: rgb(82, 62, 62);
   font-size: 1rem;
   position: fixed;
