@@ -34,8 +34,15 @@
   padding: 1rem 1.5rem;
 }
 
-.projects > .project-link-wrapper > a {
-  padding: 0 2rem;
+.projects > .project-link-wrapper > a:link {
+  padding: 0 2rem 0 1.5rem;
+  text-align: left;
+  color: blue;
+  text-decoration: none;
+}
+
+.projects > .project-link-wrapper > a:visited {
+  color: blue;
 }
 
 .projects > .project-link-wrapper > p {
