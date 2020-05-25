@@ -1,6 +1,6 @@
 # ♦️ **Syeda's Portfolio**
 
-A place to showcase Syeda's skills, qualifications education and experience.
+A place to showcase Syeda's skills, qualifications, education and experience.
 
 ### Link to [Syeda's Portfolio live](https://ismatfarjana.github.io/T1A3_Portfolio/src/html/index.html)
 ### Link to [Github Repo of Syeda's Portfolio](https://github.com/ismatfarjana/T1A3_Portfolio)
@@ -22,7 +22,7 @@ A place to showcase Syeda's skills, qualifications education and experience.
 
 # ♦️ **Features**
 
-✅  W3C validation checkup is done with every pages for browser compatibility and site usability.
+✅  W3C validation checkup is done with every page for browser compatibility and site usability.
  <details>
  <summary> Click to see the W3C validation screenshots! </summary>
 
@@ -40,11 +40,11 @@ A place to showcase Syeda's skills, qualifications education and experience.
  </details> 
 
 
-✅  Use of different html and css file with a common theme shared for each page for easy debugging  purpose.
+✅  Use a different html and css file with a common theme shared for each page for easy debugging  purpose.
 
 ✅  Bigger font for easy readability.
 
-✅  Two shade of color has been used for the visual simplicity of the website. 
+✅  Two shades of color have been used for the visual simplicity of the website. 
 <details>
     <summary>Click here to see the color palette!</summary>
   
@@ -65,10 +65,10 @@ A scratch was created as a planning of the website before creating the wireframe
 
 ✅
 
-This wireframes includes the skeletal sturcture for different sized screen: mobile phone, tablet, desktop/laptop. **display: flex** is used to keep the structure of content flow smooth through the screen according to size.  **flex-wrape**  , **flex-direction** attributes is used for this purpose.
-Every content is on a line with clear heading so navigating to content is easier. Hamburger menu for navigation bar is implimented here for keeping the navigation less crowdy in small screened device.
+This wireframes includes the skeletal structure for different sized screens: mobile phone, tablet, desktop/laptop. **display: flex** is used to keep the structure of content flow smooth through the screen according to size.  **flex-wrap**  , **flex-direction** attributes is used for this purpose.
+Every content is on a line with clear heading so navigating to content is easier. Hamburger menu for navigation bar is implemented here for keeping the navigation less crowded in small screened devices.
 **Image size** is controlled with `vw`, `rem`, `%` so the **images** act nicely with the rest of the page's responsiveness.
-**Social Media** buttons has animation on **hover** so it gives more lively experience to the audience.
+**Social Media** buttons has animation on **hover** so it gives a more lively experience to the audience.
 
 ### 🍁 Desktop
 ![desktop wireframe](https://i.imgur.com/L4jnacs.png)
@@ -124,7 +124,7 @@ A **navigation bar** at the **top** catering the menu of the portfolio. That inc
 
  ![](https://i.imgur.com/HmTsvMN.png)
  
-Hamburger menu is added for the **easy accessibility** of **menu options** in mobile device with **small screen**. `Media query` controlls the implimentation of hamburger where required.
+Hamburger menu is added for the **easy accessibility** of **menu options** in mobile device with **small screen**. `Media query` controls the implementation of hamburger where required.
 
 ![](https://i.imgur.com/c9xT1lo.png)
 
@@ -156,7 +156,7 @@ This contains information about Syeda's education, interests, skills with a phot
 
 ## 🍋 Syeda's Blog 📖
 ✅
-This includes the blogs written by Syeda with a relevent **picture**, **published time** and **link** to main blog.
+This includes the blogs written by Syeda with a relevant **picture**, **published time** and **link** to the main blog.
 
 ### 🖥️  Desktop view
 
@@ -180,7 +180,7 @@ This includes the blogs written by Syeda with a relevent **picture**, **publishe
 ---
 ## 🍋 Syeda's Projects 🛠️
 ✅
-This displays the projects that was built by Syeda.
+This displays the projects that were built by Syeda.
 
 ### 🖥️  Desktop view
 
@@ -211,9 +211,9 @@ This displays the projects that was built by Syeda.
 
 ## 🍋 Contact Syeda 📬
 ✅
-This includes a form to **send message** to Syeda via **Email**. Audience can enter their name and email address and enter their message in this form. At this moment the form is only showcasing the idea but the process of storing the message  is **in progress**. **Hitting** **`send`** button will take the audience to the **Thank you** page from where they can **navigate** to any other pages by simly using the **navigation bar** or the **hamburger menu**.
+This includes a form to **send message** to Syeda via **Email**. Audiences can enter their name and email address and enter their message in this form. At this moment the form is only showcasing the idea but the process of storing the message  is **in progress**. **Hitting** **`send`** button will take the audience to the **Thank you** page from where they can **navigate** to any other pages by simply using the **navigation bar** or the **hamburger menu**.
 
-This page also includes **SOCIAL MEDIA** **click on icon** that whill enable audiences to reach to Syeda's relevant **social media** pages where they can **follow** her.
+This page also includes **SOCIAL MEDIA** **click on icon** that will enable audiences to reach to Syeda's relevant **social media** pages where they can **follow** her.
 
 
 ### 🖥️  Desktop view
@@ -243,7 +243,7 @@ This page also includes **SOCIAL MEDIA** **click on icon** that whill enable aud
 ---
 ## 🍋 Thank you as a reply 💐
 ✅
-A simple thank you line for audience.
+A simple thank you line for the audience.
 
 
 ### 🖥️  Desktop view
@@ -271,7 +271,7 @@ A simple thank you line for audience.
 ---
 ## 🍋 Copyright ©️
 ✅
-A copyright for this website is on the bottom of every page. W3C rules is followed here to write a correct copyright.
+A copyright for this website is on the bottom of every page. W3C rules are followed here to write a correct copyright.
 
 ![copyright](https://i.imgur.com/XZlNtx2.png)  
 
@@ -366,5 +366,6 @@ Expect the employer to have the following knowledge and expectations:
 ---
 ---
 ---
+
 
 
