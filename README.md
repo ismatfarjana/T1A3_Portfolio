@@ -336,7 +336,7 @@ Expect the employer to have the following knowledge and expectations:
    - Lato
    - Oswald
    - Indie Flower 
-   - Open scans 
+   - Open sans 
  
  ## Tools
  
