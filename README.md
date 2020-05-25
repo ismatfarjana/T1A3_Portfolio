@@ -13,7 +13,7 @@ A place to showcase Syeda's skills, qualifications education and experience.
 
 👉  A simple website with no fancy animation or parallax that suits the personality of Syeda.
 
-👉  To demonstrate web development skills of Syeda by development of mockeups according to the list of requirements and 
+👉  To demonstrate web development skills of Syeda by development of mockeups according to the list of requirements. 
 
 
 ---
@@ -46,7 +46,7 @@ A place to showcase Syeda's skills, qualifications education and experience.
 
 ✅  Two shade of color has been used for the visual simplicity of the website. 
 <details>
-    <summary>Click to expand!</summary>
+    <summary>Click here to see the color palette!</summary>
   
 ![](https://i.imgur.com/OvIrwBl.jpg)
 
@@ -65,11 +65,16 @@ A scratch was created as a planning of the website before creating the wireframe
 
 ✅
 
-This wireframes includes the skeletal sturcture for different sized screen: mobile phone, tab/ipad, desktop/laptop. **display: flex** is used to keep the structure of content smooth flow through the screen according to size.  **flex-wrape**  , **flex-direction** attributes is used for this purpose.
-Every content is on a line with clear heading so navigating to contetnt is easier. Hamburger menu for navigation bar is implimented here for keeping the navigation less crowdy in small screened device.
+This wireframes includes the skeletal sturcture for different sized screen: mobile phone, tablet, desktop/laptop. **display: flex** is used to keep the structure of content flow smooth through the screen according to size.  **flex-wrape**  , **flex-direction** attributes is used for this purpose.
+Every content is on a line with clear heading so navigating to content is easier. Hamburger menu for navigation bar is implimented here for keeping the navigation less crowdy in small screened device.
+**Image size** is controlled with `vw`, `rem`, `%` so the **images** act nicely with the rest of the page's responsiveness.
+**Social Media** buttons has animation on **hover** so it gives more lively experience to the audience.
+
+### 🍁 Desktop
+![desktop wireframe](https://i.imgur.com/L4jnacs.png)
 
 <details>
-    <summary>Click here for details screenshoot</summary>
+    <summary>Click here for Mobile phone and tablet view!</summary>
     
 ### 🍁 Mobile phone
 
@@ -80,8 +85,7 @@ Every content is on a line with clear heading so navigating to contetnt is easie
 
 ![ipad wireframe](https://i.imgur.com/D7ntKy8.png)
 
-### 🍁 Desktop
-![desktop wireframe](https://i.imgur.com/L4jnacs.png)
+
 </details>
  
  ---
@@ -303,7 +307,7 @@ Expect the employer to have the following knowledge and expectations:
 
 ---
 
-# ♦️ Tech stack with Assets link
+# ♦️ Tech stack with Assets link and Tools
 
 ✅
 
@@ -326,33 +330,41 @@ Expect the employer to have the following knowledge and expectations:
  - [Projects CSS](https://github.com/ismatfarjana/T1A3_Portfolio/blob/master/src/css/style_projects.css)
  - [Contact CSS](https://github.com/ismatfarjana/T1A3_Portfolio/blob/master/src/css/style_contact.css)
  
+### ♣️ Font 
+   
+   Fonts:
+   - Lato
+   - Oswald
+   - Indie Flower 
+   - Open scans 
+ 
+ ## Tools
+ 
 ### ♣️ Google docs
 
  - [PDF of Resume](https://github.com/ismatfarjana/T1A3_Portfolio/blob/master/docs/Syeda_resume.pdf)
 
-### ♣️ Googlefont
- 
-  **Typography**
- - Lato
- - Oswald
- - Indie Flower 
- - Open scans 
+### ♣️ Deployed Platform: Github pages
+ - **Github :** [Live portfolio](https://ismatfarjana.github.io/T1A3_Portfolio/src/html/index.html)
 
-
-
-### ♣️ Deployed Platform
- - **Github**
-  [Live portfolio](https://ismatfarjana.github.io/T1A3_Portfolio/src/html/index.html)
-
-### ♣️ [Lucid chart ](https://app.lucidchart.com/invitations/accept/7a0f12fe-8cbf-4b18-a40c-94c68e72ad3e)
+### ♣️  Lucid Chart
+  - [Site map](https://app.lucidchart.com/invitations/accept/7a0f12fe-8cbf-4b18-a40c-94c68e72ad3e)
 
 ### ♣️  [Coolors](https://github.com/ismatfarjana/T1A3_Portfolio/blob/master/docs/colorpicker/plate%202.jpg)
 
 
-### ♣️  [W3C Validator](https://github.com/ismatfarjana/T1A3_Portfolio/tree/master/docs/images/w3c)
+### ♣️  W3C validator
+- [W3C Validator](https://github.com/ismatfarjana/T1A3_Portfolio/tree/master/docs/images/w3c)
   
+### ♣️  HackMD
+
+### ♣️ Zinu UI - SRI Hash Generator
+
+ - [Hash algorithm: sha512](https://)
+
 
 ---
-
+---
+---
 
 
