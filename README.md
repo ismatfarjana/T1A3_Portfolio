@@ -44,9 +44,12 @@ A place to showcase Syeda's skills, qualifications education and experience.
 
 ✅  Bigger font for easy readability.
 
-✅  Two shade of color has been used for the visual simplicity of the website.
+✅  Two shade of color has been used for the visual simplicity of the website. 
 <details>
     <summary>Click to expand!</summary>
+  
+![](https://i.imgur.com/OvIrwBl.jpg)
+
   
 </details>
  
@@ -327,25 +330,26 @@ Expect the employer to have the following knowledge and expectations:
 
  - [PDF of Resume](https://github.com/ismatfarjana/T1A3_Portfolio/blob/master/docs/Syeda_resume.pdf)
 
-### ♣️ Font
+### ♣️ Googlefont
  
+  **Typography**
  - Lato
  - Oswald
- - Indie Flower
-  
+ - Indie Flower 
  - Open scans 
 
- ![](https://i.imgur.com/n2n0sae.png)
 
 
 ### ♣️ Deployed Platform
+ - **Github**
+  [Live portfolio](https://ismatfarjana.github.io/T1A3_Portfolio/src/html/index.html)
 
 ### ♣️ [Lucid chart ](https://app.lucidchart.com/invitations/accept/7a0f12fe-8cbf-4b18-a40c-94c68e72ad3e)
 
 ### ♣️  [Coolors](https://github.com/ismatfarjana/T1A3_Portfolio/blob/master/docs/colorpicker/plate%202.jpg)
 
 
-### ♣️ W3C Validator
+### ♣️  [W3C Validator](https://github.com/ismatfarjana/T1A3_Portfolio/tree/master/docs/images/w3c)
   
 
 ---
