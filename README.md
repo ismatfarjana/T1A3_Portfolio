@@ -342,7 +342,7 @@ Expect the employer to have the following knowledge and expectations:
 
 ### ♣️ [Lucid chart ](https://app.lucidchart.com/invitations/accept/7a0f12fe-8cbf-4b18-a40c-94c68e72ad3e)
 
-### ♣️  [Coolors](https://coolors.co/)
+### ♣️  [Coolors](https://github.com/ismatfarjana/T1A3_Portfolio/blob/master/docs/colorpicker/plate%202.jpg)
 
 
 ### ♣️ W3C Validator
